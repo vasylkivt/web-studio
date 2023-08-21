@@ -1,5 +1,5 @@
 :root {
-  --image-path: ./images/background/;
+  --image-path: /images/background/;
 }
 
 .hero {
@@ -29,7 +29,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(./images/background/mobile/bg@2x.jpg);
+      url(/images/background/mobile/bg@2x.jpg);
   }
 }
 @media screen and (max-width: 767px) and (min-device-pixel-ratio: 3),
@@ -40,7 +40,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(./images/background/mobile/bg@3x.jpg);
+      url(/images/background/mobile/bg@3x.jpg);
   }
 }
 
@@ -52,7 +52,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(./images/background/tablet/bg.jpg);
+      url(/images/background/tablet/bg.jpg);
   }
 }
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2),
@@ -63,7 +63,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(./images/background/tablet/bg@2x.jpg);
+      url(/images/background/tablet/bg@2x.jpg);
   }
 }
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 3),
@@ -74,7 +74,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(./images/background/tablet/bg@3x.jpg);
+      url(/images/background/tablet/bg@3x.jpg);
   }
 }
 
@@ -89,7 +89,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(./images/background/desktop/bg.jpg);
+      url(/images/background/desktop/bg.jpg);
   }
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2),
@@ -100,7 +100,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(./images/background/desktop/bg@2x.jpg);
+      url(/images/background/desktop/bg@2x.jpg);
   }
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 3),
@@ -111,7 +111,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(./images/background/desktop/bg@3x.jpg);
+      url(/images/background/desktop/bg@3x.jpg);
   }
 }
 
