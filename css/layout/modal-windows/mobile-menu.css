@@ -1,4 +1,4 @@
-.bdrop-mobile-menu.is-open {
+.bdrop-mobile-menu.is-hidden {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
