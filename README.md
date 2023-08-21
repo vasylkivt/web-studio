@@ -1,4 +1,5 @@
-# Web Studio Landing Page [![Netlify Status](https://api.netlify.com/api/v1/badges/88fd2a2c-ea8c-42d3-8b6a-4a865c95a025/deploy-status)](https://app.netlify.com/sites/vasylkiv-web-studio/deploys) [Netlify link](https://vasylkiv-web-studio.netlify.app)
+# Web Studio Landing Page [![Netlify Status](https://api.netlify.com/api/v1/badges/88fd2a2c-ea8c-42d3-8b6a-4a865c95a025/deploy-status)](https://app.netlify.com/sites/vasylkiv-web-studio/deploys)  [🌐 Netlify link](https://vasylkiv-web-studio.netlify.app)
+
 
 ![Web Studio Screenshot](./assets/WEBSTUDIO.png)
 
