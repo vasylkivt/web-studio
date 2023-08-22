@@ -99,9 +99,20 @@
   letter-spacing: 0.02em;
 }
 
+.portfolio-item {
+  transition: all 500ms ease-in-out;
+}
+
+.portfolio-item.hidden {
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+}
+
 .portfolio-item .card-title {
   margin-bottom: 8px;
 }
+
 .portfolio-desc {
   padding-top: 32px;
   padding-bottom: 32px;

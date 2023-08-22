@@ -22,3 +22,6 @@
 
 /* Portfolio page */
 @import './layout/pages/portfolio/portfolio.css';
+
+/* Contacts page */
+@import './layout/pages/contacts/contacts.css';

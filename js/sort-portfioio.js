@@ -1,25 +1,28 @@
-document.addEventListener('DOMContentLoaded', function () {
-  const filterButtons = document.querySelectorAll('.filter-btns');
-  const portfolioItems = document.querySelectorAll('.portfolio-item');
+const filterButtonsList = document.querySelector('.js-btn-filter-list');
+const portfolioItems = document.querySelectorAll('.portfolio-item');
 
-  filterButtons.forEach(button => {
-    button.addEventListener('click', function () {
-      const category = this.getAttribute('data-filter');
+filterButtonsList.addEventListener('click', e => {
+  const currentBtn = e.target;
 
-      portfolioItems.forEach(item => {
-        if (
-          category === 'all' ||
-          item.getAttribute('data-category') === category
-        ) {
-          item.style.display = 'block';
-        } else {
-          item.style.display = 'none';
-        }
-      });
+  const datasetFilter = e.target.dataset.filter;
 
-      filterButtons.forEach(btn => btn.classList.remove('active'));
-      this.classList.add('active');
-      this.blur();
+  if (datasetFilter) {
+    portfolioItems.forEach(item => {
+      if (
+        datasetFilter === 'all' ||
+        item.getAttribute('data-category') === datasetFilter
+      ) {
+        item.classList.remove('hidden');
+      } else {
+        item.classList.add('hidden');
+      }
     });
-  });
+  }
+
+  document
+    .querySelectorAll('.filter-btns')
+    .forEach(btn => btn.classList.remove('active'));
+
+  currentBtn.classList.add('active');
+  currentBtn.blur();
 });

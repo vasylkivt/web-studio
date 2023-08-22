@@ -1,0 +1,61 @@
+.contacts .container {
+  display: grid;
+  grid-template-areas:
+    'title title'
+    'contacts map';
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.contacts-title {
+  grid-area: title;
+  text-align: center;
+}
+
+.contacts-wrap {
+  display: flex;
+  flex-direction: column;
+  grid-area: contacts;
+  gap: 20px;
+  width: 100%;
+
+  padding: 30px;
+  border-radius: 10px;
+  background-color: var(--secondary-background-color-light);
+}
+
+.contacts-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.contacts-item {
+}
+.contacts-link {
+}
+
+.contacts-form {
+  display: grid;
+  grid-template-areas:
+    'name email'
+    'message message'
+    'btn btn';
+  gap: 30px;
+}
+
+.contacts-form-name {
+  grid-area: name;
+}
+.contacts-form-email {
+  grid-area: email;
+}
+.contacts-form-message {
+  grid-area: message;
+}
+.contacts-form-btn {
+  grid-area: btn;
+}
+
+.contacts-map {
+  grid-area: map;
+}
